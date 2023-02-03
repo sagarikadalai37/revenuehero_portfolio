@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+:root {
+	--mainColor: #030e3a;
+	--mainColorLight: #8484d9;
+	--secondaryColor: #0ba3ef;
+	--textColor: #eee;
+
+	--color-bg: #1f1f38;
+	--color-bg-variant: #2c2c6c;
+	--color-white: #fff;
+	--color-dark-variant: rgba(0, 0, 0, 0.3);
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 80px;
+	padding: 0 2rem;
+	background-color: var(--mainColor);
+	color: var(--textColor);
+}
+header h1{
+    margin-left: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav a {
+	margin: 0 1rem;
+	color: var(--textColor);
+	text-decoration: none;
+    margin: 2rem;
+}
+
+nav a:hover {
+	color: var(--secondaryColor);
+	text-decoration: underline;
+}
+
